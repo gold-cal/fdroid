@@ -25,10 +25,9 @@ jobs:
 
       - name: Install F-Droid server software
         run: |
-         sudo apt install aptitude
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         sudo aptitude install fdroidserver
+         sudo apt install fdroidserver=2.1.1
 
       - name: Set up repo secrets
         run: |
