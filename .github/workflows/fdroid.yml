@@ -25,9 +25,9 @@ jobs:
 
       - name: Install F-Droid server software
         run: |
-         sudo add-apt-repository ppa:guardianproject/fdroidserver
+         sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         sudo apt-get install fdroidserver
+         sudo aptitude install fdroidserver
 
       - name: Set up repo secrets
         run: |
