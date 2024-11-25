@@ -17,5 +17,4 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	golang.org/x/net v0.0.0-20211008194852-3b03d305991f // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
-        github.com/vmihailenco/msgpack v3.1.2 // indirect
 )
