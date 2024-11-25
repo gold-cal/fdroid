@@ -1,6 +1,9 @@
 #!/bin/bash
 
 cd metascoop
+echo "::group::Running tidy"
+go mod tidy
+echo "::endgroup::"
 echo "::group::Building metascoop executable"
 go build -o metascoop
 echo "::endgroup::"
