@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd metascoop
+# Make it run tidy to check for dependency changes
 echo "::group::Running tidy"
 go mod tidy
 echo "::endgroup::"

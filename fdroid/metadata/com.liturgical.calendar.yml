@@ -1,0 +1,26 @@
+AuthorName: gold-cal
+Categories:
+    - Time
+CurrentVersion: 0.10.13
+CurrentVersionCode: 13
+Description: |
+    Liturgical Calendar 2024 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2024. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.
+
+    Liturgical Calendar 2024 Features -
+
+    ➕ No ads or annoying popups, truly great user experience!
+    ➕ No internet access is needed, giving you more privacy, security, and stability
+    ➕ Calendar Widget supports exporting & importing events via .ics files
+    ➕ Export settings to .txt files to import to another device
+    ➕ Flexible event creation – times, duration, reminders, powerful repetition rules
+    ➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc
+
+    It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
+
+    Contains no ads or unnecessary permissions.
+IssueTracker: ""
+License: GPL-3.0
+Name: Liturgical Calendar
+SourceCode: https://github.com/gold-cal/liturgical-calendar
+Summary: ""
+WebSite: ""
