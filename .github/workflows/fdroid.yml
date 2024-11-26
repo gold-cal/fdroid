@@ -30,7 +30,7 @@ jobs:
         # sudo apt install fdroidserver
       - name: Install python3 qrcode
         run: |
-          pip install qrcode pillow androguard
+          pip install qrcode pillow androguard==3.3.5
           sudo apt install apksigner
 
       - name: Set up repo secrets
