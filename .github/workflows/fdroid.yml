@@ -16,12 +16,12 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Create basic directory structure
-        run: mkdir -p fdroid/repo
+       # run: mkdir -p fdroid/repo
 
       - name: Restore correct mtime
-        run: |
-          sudo apt install git-restore-mtime 
-          git restore-mtime
+       # run: |
+      #    sudo apt install git-restore-mtime 
+       #   git restore-mtime
 
       #- name: Install F-Droid server software
       #  run: |
@@ -30,9 +30,9 @@ jobs:
       #   sudo apt install fdroidserver
 
       - name: Set up repo secrets
-        run: |
-          echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
-          echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+      #  run: |
+      #    echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
+      #    echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
 
       - uses: actions/setup-go@v2
         name: Set up Go
@@ -40,7 +40,12 @@ jobs:
           go-version: '1.17.0' 
         
       - name: Run update script
-        run: echo $PATH
+        run: |
+         ls
+         cd ..
+         ls
+         cd ..
+         ls
       #  run: bash update.sh 2>&1
       #  env:
          # GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
