@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/gold-cal/liturgical-calendar"><img src="fdroid/repo/icons/" alt="Liturgical Calendar icon" width="36px" height="36px"></a> | [**Liturgical Calendar**](https://github.com/gold-cal/liturgical-calendar) |  | 0.10.13 (13) |
+| <a href="https://github.com/gold-cal/liturgical-calendar"><img src="fdroid/repo/icons/icon.png" alt="Liturgical Calendar icon" width="36px" height="36px"></a> | [**Liturgical Calendar**](https://github.com/gold-cal/liturgical-calendar) |  | 0.10.13 (13) |
 <!-- end apps table -->
 
 ### How to use
@@ -20,7 +20,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
     Alternatively, you can also scan this QR code:
 
     <p align="center">
-      <img src=".github/qrcode.png?raw=true" alt="F-Droid repo QR code"/>
+      <img src="qr_code.png?raw=true" alt="F-Droid repo QR code"/>
     </p>
 
 3. Open the link in F-Droid. It will ask you to add the repository. Everything should already be filled in correctly, so just press "OK".
