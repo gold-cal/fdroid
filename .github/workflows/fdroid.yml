@@ -23,11 +23,11 @@ jobs:
           sudo apt install git-restore-mtime 
           git restore-mtime
 
-      - name: Install F-Droid server software
-        run: |
-         sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo apt-get update
-         sudo apt install fdroidserver
+      #- name: Install F-Droid server software
+#        run: |
+       #  sudo add-apt-repository ppa:fdroid/fdroidserver
+       #  sudo apt-get update
+        # sudo apt install fdroidserver
 
       - name: Set up repo secrets
         run: |
