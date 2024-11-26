@@ -23,11 +23,11 @@ jobs:
           sudo apt install git-restore-mtime 
           git restore-mtime
 
-      - name: Install F-Droid server software
-        run: |
-         sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo apt-get update
-         sudo apt install fdroidserver=2.1.1
+      #- name: Install F-Droid server software
+      #  run: |
+      #   sudo add-apt-repository ppa:fdroid/fdroidserver
+      #   sudo apt-get update
+      #   sudo apt install fdroidserver
 
       - name: Set up repo secrets
         run: |
@@ -38,7 +38,6 @@ jobs:
         name: Set up Go
         with:
           go-version: '1.17.0' 
-      - run: go version
         
       - name: Run update script
         run: bash update.sh 2>&1
