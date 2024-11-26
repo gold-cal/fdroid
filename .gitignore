@@ -1,12 +1,14 @@
 config.py
 keystore.jks
-fdroid/out.txt
+out.txt
 **.tmp
 .git
+.github
 keystore.p12
 config.yml
+update.sh
 fdroid/tmp
 fdroid/srclibs
 fdroid/archive
 fdroid/repo/status
-metascoop/metascoop
+metascoop/
