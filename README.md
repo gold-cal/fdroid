@@ -11,10 +11,10 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 
 ### How to use
 1. At first, you should [install the F-Droid app](https://f-droid.org/), it's an alternative app store for Android.
-2. Now you can copy the following [link](https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo?fingerprint=), then add this repository to your F-Droid client:
+2. Now you can copy the following [link](https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo?fingerprint=15B3C3B2E92328A5A7A0190877D8A7AA6C304C44B322743AA7F462D0C51949A9), then add this repository to your F-Droid client:
 
     ```
-    https://raw.githubusercontent.com/
+    https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo?fingerprint=15B3C3B2E92328A5A7A0190877D8A7AA6C304C44B322743AA7F462D0C51949A9
     ```
 
     Alternatively, you can also scan this QR code:
