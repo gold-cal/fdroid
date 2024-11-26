@@ -29,7 +29,8 @@ jobs:
        #  sudo apt-get update
         # sudo apt install fdroidserver
       - name: Install python3 qrcode
-        run: pip install qrcode
+        run: |
+          pip install qrcode pillow
 
       - name: Set up repo secrets
         run: |
