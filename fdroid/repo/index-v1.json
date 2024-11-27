@@ -1,8 +1,8 @@
 {
   "repo": {
-    "timestamp": 1732655878000,
+    "timestamp": 1732670755000,
     "version": 20001,
-    "name": "My First F-Droid Repo Demo",
+    "name": "gold-cal F-Droid Repo",
     "icon": "icon.png",
     "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo",
     "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
@@ -23,11 +23,14 @@
       "license": "GPL-3.0",
       "name": "Liturgical Calendar",
       "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
-      "added": 1732655439000,
+      "summary": "Liturgical Calendar app",
+      "added": 1732669897000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1732655439000,
+      "lastUpdated": 1732669897000,
       "localized": {
         "en-US": {
+          "featureGraphic": "featureGraphic_AQ8UedjRVEXyJ4VPboeTB5g0L5RHWhxuVaevCEaciJU=.png",
+          "icon": "icon_kCCAABFCdZGskvaq29gDxDaBdEOJCPwkJenudm3Jmyo=.png",
           "phoneScreenshots": [
             "1.png",
             "2.png",
@@ -41,7 +44,7 @@
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1732655439000,
+        "added": 1732669897000,
         "apkName": "liturgical-calendar_0.10.13.apk",
         "hash": "53e9bb6f81695be7e5565e67e2c448e8310706d00c9bc493ce682d504eb88135",
         "hashType": "sha256",
