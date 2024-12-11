@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1733865076000,
+    "timestamp": 1733880530000,
     "version": 20001,
     "name": "gold-cal F-Droid Repo",
     "icon": "icon.png",
@@ -19,17 +19,17 @@
       "suggestedVersionCode": "2147483647",
       "license": "Unknown",
       "name": "icon",
-      "added": 1733865073000,
+      "added": 1733880527000,
       "packageName": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
-      "lastUpdated": 1733865073000
+      "lastUpdated": 1733880527000
     },
     {
       "authorName": "gold-cal",
       "categories": [
         "Time"
       ],
-      "suggestedVersionName": "0.11.0",
-      "suggestedVersionCode": "15",
+      "suggestedVersionName": "0.11.1",
+      "suggestedVersionCode": "16",
       "description": "Liturgical Calendar 2024 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2024. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2024 Features -\n\n\u2795 No ads or annoying popups, truly great user experience!\n\u2795 No internet access is needed, giving you more privacy, security, and stability\n\u2795 Calendar Widget supports exporting & importing events via .ics files\n\u2795 Export settings to .txt files to import to another device\n\u2795 Flexible event creation \u2013 times, duration, reminders, powerful repetition rules\n\u2795 CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n",
       "license": "GPL-3.0",
       "name": "Liturgical Calendar",
@@ -37,7 +37,7 @@
       "summary": "Liturgical Calendar app",
       "added": 1732669897000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1733865066000,
+      "lastUpdated": 1733880521000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_AQ8UedjRVEXyJ4VPboeTB5g0L5RHWhxuVaevCEaciJU=.png",
@@ -48,7 +48,7 @@
             "3.png",
             "4.png"
           ],
-          "whatsNew": "- Updated widget refresh so it works after updating app\n- Updated calendar refresh interval"
+          "whatsNew": "- Fixed bug where task icon would not resize properly\n- Fixed bug in the liturgical calendar refresh"
         }
       }
     }
@@ -56,7 +56,7 @@
   "packages": {
     "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138": [
       {
-        "added": 1733865073000,
+        "added": 1733880527000,
         "apkName": "icon.png",
         "hash": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
         "hashType": "sha256",
@@ -66,6 +66,66 @@
       }
     ],
     "com.liturgical.calendar": [
+      {
+        "added": 1733880521000,
+        "apkName": "liturgical-calendar_0.11.1.apk",
+        "hash": "e1bf4c5ee0b988ac35eb070e389dd2594a41c8c0f3d6f7d7664f0f5953d8ea43",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "com.liturgical.calendar",
+        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
+        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
+        "size": 8897570,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WRITE_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 16,
+        "versionName": "0.11.1"
+      },
       {
         "added": 1733865066000,
         "apkName": "liturgical-calendar_0.11.0.apk",
@@ -185,66 +245,6 @@
         ],
         "versionCode": 14,
         "versionName": "0.10.14"
-      },
-      {
-        "added": 1732669897000,
-        "apkName": "liturgical-calendar_0.10.13.apk",
-        "hash": "53e9bb6f81695be7e5565e67e2c448e8310706d00c9bc493ce682d504eb88135",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "packageName": "com.liturgical.calendar",
-        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
-        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
-        "size": 8893955,
-        "targetSdkVersion": 33,
-        "uses-permission": [
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WRITE_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.SCHEDULE_EXACT_ALARM",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ],
-          [
-            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            28
-          ]
-        ],
-        "versionCode": 13,
-        "versionName": "0.10.13"
       }
     ]
   }
