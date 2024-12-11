@@ -10,6 +10,5 @@ update.sh
 icon.xcf
 fdroid/tmp
 fdroid/srclibs
-fdroid/archive
 fdroid/repo/status
 metascoop/
