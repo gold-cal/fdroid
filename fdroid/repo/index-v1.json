@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734031241000,
+    "timestamp": 1734108824000,
     "version": 20001,
     "name": "gold-cal F-Droid Repo",
     "icon": "icon.png",
@@ -12,17 +12,6 @@
     "uninstall": []
   },
   "apps": [
-    {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "icon",
-      "added": 1734031237000,
-      "packageName": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
-      "lastUpdated": 1734031237000
-    },
     {
       "authorName": "gold-cal",
       "categories": [
@@ -54,17 +43,6 @@
     }
   ],
   "packages": {
-    "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138": [
-      {
-        "added": 1734031237000,
-        "apkName": "icon.png",
-        "hash": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
-        "hashType": "sha256",
-        "packageName": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
-        "size": 74348,
-        "versionName": "9017d81"
-      }
-    ],
     "com.liturgical.calendar": [
       {
         "added": 1734031219000,
