@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1734108821000,
-    "version": 20001,
+    "timestamp": 1734123214000,
+    "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
     "description": "These are the apps that have been archived from the main repo.",
@@ -24,15 +24,15 @@
       "name": "Liturgical Calendar",
       "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
       "summary": "Liturgical Calendar app",
-      "added": 1732669897000,
+      "added": 1734116079000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1734031219000
+      "lastUpdated": 1734116088000
     }
   ],
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1733865066000,
+        "added": 1734116088000,
         "apkName": "liturgical-calendar_0.11.0.apk",
         "hash": "2175560d18a9e53af92994025c5306e932aec0388d0d9ae5398b468f497bf9ae",
         "hashType": "sha256",
@@ -92,7 +92,7 @@
         "versionName": "0.11.0"
       },
       {
-        "added": 1733100516000,
+        "added": 1734116086000,
         "apkName": "liturgical-calendar_0.10.14.apk",
         "hash": "aade9b0c2771f8beb6251ab36626ffb9395377551399051918df13d287a0042f",
         "hashType": "sha256",
@@ -152,7 +152,7 @@
         "versionName": "0.10.14"
       },
       {
-        "added": 1732669897000,
+        "added": 1734116085000,
         "apkName": "liturgical-calendar_0.10.13.apk",
         "hash": "53e9bb6f81695be7e5565e67e2c448e8310706d00c9bc493ce682d504eb88135",
         "hashType": "sha256",

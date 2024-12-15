@@ -1,0 +1,259 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "gold-cal F-Droid Repo"
+    },
+    "description": {
+      "en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
+        "size": 74348
+      }
+    },
+    "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo",
+    "timestamp": 1734123218000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "metadata": {
+        "added": 1734116079000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1734116088000,
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/com.liturgical.calendar/en-US/featureGraphic_AQ8UedjRVEXyJ4VPboeTB5g0L5RHWhxuVaevCEaciJU=.png",
+            "sha256": "010f1479d8d15445f227854f6e87930798342f94475a1c6e55a7af08469c8895",
+            "size": 25290
+          }
+        },
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.liturgical.calendar/en-US/phoneScreenshots/1.png",
+                "sha256": "3d0fdce76cf4569cc8a45a85207c6e3678be74c3e86df066fc01fddf437f6faa",
+                "size": 153615
+              },
+              {
+                "name": "/com.liturgical.calendar/en-US/phoneScreenshots/2.png",
+                "sha256": "58a232ea82b59fbc234edfacd19709cb8d70fa7f0897d81cb14b374ecdfde6ed",
+                "size": 51228
+              },
+              {
+                "name": "/com.liturgical.calendar/en-US/phoneScreenshots/3.png",
+                "sha256": "20f01fba22ef0659360b230c7bebd554bd364d4952d142025c5c52af6b3de5c6",
+                "size": 106894
+              },
+              {
+                "name": "/com.liturgical.calendar/en-US/phoneScreenshots/4.png",
+                "sha256": "1a6f527b1d97a16990db04cf76f99b3a46901b963254e042a1c03f52c661463e",
+                "size": 63054
+              }
+            ]
+          }
+        },
+        "authorName": "gold-cal",
+        "name": {
+          "en-US": "Liturgical Calendar"
+        },
+        "summary": {
+          "en-US": "Liturgical Calendar app"
+        },
+        "description": {
+          "en-US": "Liturgical Calendar 2024 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2024. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2024 Features -\n\n➕ No ads or annoying popups, truly great user experience!\n➕ No internet access is needed, giving you more privacy, security, and stability\n➕ Calendar Widget supports exporting & importing events via .ics files\n➕ Export settings to .txt files to import to another device\n➕ Flexible event creation – times, duration, reminders, powerful repetition rules\n➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.liturgical.calendar/en-US/icon_kCCAABFCdZGskvaq29gDxDaBdEOJCPwkJenudm3Jmyo=.png",
+            "sha256": "9020800011427591ac92f6aadbd803c4368174438908fc2425e9ee766dc99b2a",
+            "size": 19764
+          }
+        },
+        "preferredSigner": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+      },
+      "versions": {
+        "2daf16f4dbf958ad795bf63bbe8160950655a32eddf9383446c92fa8c5e5008d": {
+          "added": 1734116083000,
+          "file": {
+            "name": "/liturgical-calendar_0.11.3.apk",
+            "sha256": "2daf16f4dbf958ad795bf63bbe8160950655a32eddf9383446c92fa8c5e5008d",
+            "size": 8898698
+          },
+          "manifest": {
+            "versionName": "0.11.3",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "a2111cea976599375ea67199b0d9821a9d945835ac4cf071ffec6d7fda06c22f": {
+          "added": 1734116081000,
+          "file": {
+            "name": "/liturgical-calendar_0.11.2.apk",
+            "sha256": "a2111cea976599375ea67199b0d9821a9d945835ac4cf071ffec6d7fda06c22f",
+            "size": 8898394
+          },
+          "manifest": {
+            "versionName": "0.11.2",
+            "versionCode": 17,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "e1bf4c5ee0b988ac35eb070e389dd2594a41c8c0f3d6f7d7664f0f5953d8ea43": {
+          "added": 1734116079000,
+          "file": {
+            "name": "/liturgical-calendar_0.11.1.apk",
+            "sha256": "e1bf4c5ee0b988ac35eb070e389dd2594a41c8c0f3d6f7d7664f0f5953d8ea43",
+            "size": 8897570
+          },
+          "manifest": {
+            "versionName": "0.11.1",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

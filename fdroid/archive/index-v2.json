@@ -1,0 +1,219 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "My First F-Droid Archive Demo"
+    },
+    "description": {
+      "en-US": "These are the apps that have been archived from the main repo."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "9017d81d8ea837caa0f113cb90c6a8234d8780e719ed6de0f9b46207659a2138",
+        "size": 74348
+      }
+    },
+    "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/archive",
+    "timestamp": 1734123214000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "metadata": {
+        "added": 1734116079000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1734116088000,
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
+        "authorName": "gold-cal",
+        "name": {
+          "en-US": "Liturgical Calendar"
+        },
+        "summary": {
+          "en-US": "Liturgical Calendar app"
+        },
+        "description": {
+          "en-US": "Liturgical Calendar 2024 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2024. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2024 Features -\n\n➕ No ads or annoying popups, truly great user experience!\n➕ No internet access is needed, giving you more privacy, security, and stability\n➕ Calendar Widget supports exporting & importing events via .ics files\n➕ Export settings to .txt files to import to another device\n➕ Flexible event creation – times, duration, reminders, powerful repetition rules\n➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n"
+        },
+        "preferredSigner": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+      },
+      "versions": {
+        "2175560d18a9e53af92994025c5306e932aec0388d0d9ae5398b468f497bf9ae": {
+          "added": 1734116088000,
+          "file": {
+            "name": "/liturgical-calendar_0.11.0.apk",
+            "sha256": "2175560d18a9e53af92994025c5306e932aec0388d0d9ae5398b468f497bf9ae",
+            "size": 8896898
+          },
+          "manifest": {
+            "versionName": "0.11.0",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "aade9b0c2771f8beb6251ab36626ffb9395377551399051918df13d287a0042f": {
+          "added": 1734116086000,
+          "file": {
+            "name": "/liturgical-calendar_0.10.14.apk",
+            "sha256": "aade9b0c2771f8beb6251ab36626ffb9395377551399051918df13d287a0042f",
+            "size": 8894817
+          },
+          "manifest": {
+            "versionName": "0.10.14",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
+        "53e9bb6f81695be7e5565e67e2c448e8310706d00c9bc493ce682d504eb88135": {
+          "added": 1734116085000,
+          "file": {
+            "name": "/liturgical-calendar_0.10.13.apk",
+            "sha256": "53e9bb6f81695be7e5565e67e2c448e8310706d00c9bc493ce682d504eb88135",
+            "size": 8893955
+          },
+          "manifest": {
+            "versionName": "0.10.13",
+            "versionCode": 13,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
