@@ -1,0 +1,73 @@
+{
+  "repo": {
+    "timestamp": 1736301952000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "metadata": {
+        "lastUpdated": 1736301939000
+      },
+      "versions": {
+        "e1bf4c5ee0b988ac35eb070e389dd2594a41c8c0f3d6f7d7664f0f5953d8ea43": null,
+        "4a56eb4e4d73c3e049d174645f343eb2fc1b5069e3e8c603e4e5e3366bf301bf": {
+          "added": 1736301939000,
+          "file": {
+            "name": "/liturgical-calendar_0.12.0.apk",
+            "sha256": "4a56eb4e4d73c3e049d174645f343eb2fc1b5069e3e8c603e4e5e3366bf301bf",
+            "size": 8564811
+          },
+          "manifest": {
+            "versionName": "0.12.0",
+            "versionCode": 19,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
