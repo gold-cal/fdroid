@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1736531794000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "versions": {
+        "fecbfd1087a4541b19c2f557b5155d841f58763e79f4a28b349ca559f66a484e": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

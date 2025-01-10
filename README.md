@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/gold-cal/liturgical-calendar"><img src="fdroid/repo/icons/" alt="Liturgical Calendar icon" width="36px" height="36px"></a> | [**Liturgical Calendar**](https://github.com/gold-cal/liturgical-calendar) | Liturgical Calendar app | 0.12.0 (19) |
+| <a href="https://github.com/gold-cal/liturgical-calendar"><img src="fdroid/repo/com.liturgical.calendar/en-US/icon.png" alt="Liturgical Calendar icon" width="36px" height="36px"></a> | [**Liturgical Calendar**](https://github.com/gold-cal/liturgical-calendar) | Liturgical Calendar app | 1.00.0 (20) |
 <!-- end apps table -->
 
 ### How to use
