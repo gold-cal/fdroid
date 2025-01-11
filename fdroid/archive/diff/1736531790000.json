@@ -1,0 +1,72 @@
+{
+  "repo": {
+    "timestamp": 1736611195000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "metadata": {
+        "lastUpdated": 1736611187000
+      },
+      "versions": {
+        "2daf16f4dbf958ad795bf63bbe8160950655a32eddf9383446c92fa8c5e5008d": {
+          "added": 1734116083000,
+          "file": {
+            "name": "/liturgical-calendar_0.11.3.apk",
+            "sha256": "2daf16f4dbf958ad795bf63bbe8160950655a32eddf9383446c92fa8c5e5008d",
+            "size": 8898698
+          },
+          "manifest": {
+            "versionName": "0.11.3",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
