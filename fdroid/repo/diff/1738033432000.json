@@ -1,0 +1,30 @@
+{
+  "repo": {
+    "timestamp": 1738033874000
+  },
+  "packages": {
+    "com.liturgical.calendar": {
+      "metadata": {
+        "featureGraphic": {
+          "en-US": {
+            "name": "/com.liturgical.calendar/en-US/featureGraphic_FnK1BLrih59HFUq-JzGC8GTgmS-AWTQ8Z1xscA-8Azg=.png",
+            "sha256": "1672b504bae2879f47154abe273182f064e0992f8059343c675c6c700fbc0338",
+            "size": 90202
+          }
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.liturgical.calendar/en-US/icon_9ngAjfwUWXjLhWe9pz2M9YjT_RPJ8rYZjuYmEDC13rM=.png",
+            "sha256": "f678008dfc145978cb8567bda73d8cf588d3fd13c9f2b6198ee6261030b5deb3",
+            "size": 49962
+          }
+        }
+      },
+      "versions": {
+        "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
