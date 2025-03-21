@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/archive",
-    "timestamp": 1738033870000
+    "timestamp": 1742518248000
   },
   "packages": {
     "com.liturgical.calendar": {
@@ -23,7 +23,8 @@
         "categories": [
           "Time"
         ],
-        "lastUpdated": 1738033429000,
+        "changelog": "https://github.com/gold-cal/liturgical-calendar/CHANGELOG.md",
+        "lastUpdated": 1742518240000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
         "authorName": "gold-cal",
@@ -31,14 +32,72 @@
           "en-US": "Liturgical Calendar"
         },
         "summary": {
-          "en-US": "Liturgical Calendar app"
+          "en-US": "Traditional Roman Calendar app"
         },
         "description": {
-          "en-US": "Liturgical Calendar 2024 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2024. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2024 Features -\n\n➕ No ads or annoying popups, truly great user experience!\n➕ No internet access is needed, giving you more privacy, security, and stability\n➕ Calendar Widget supports exporting & importing events via .ics files\n➕ Export settings to .txt files to import to another device\n➕ Flexible event creation – times, duration, reminders, powerful repetition rules\n➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n"
+          "en-US": "Liturgical Calendar 2025 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2025. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2025 Features -\n\n➕ No ads or annoying popups, truly great user experience!\n➕ No internet access is needed, giving you more privacy, security, and stability\n➕ Calendar Widget supports exporting & importing events via .ics files\n➕ Export settings to .txt files to import to another device\n➕ Flexible event creation – times, duration, reminders, powerful repetition rules\n➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n"
         },
         "preferredSigner": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
       },
       "versions": {
+        "fecbfd1087a4541b19c2f557b5155d841f58763e79f4a28b349ca559f66a484e": {
+          "added": 1736531782000,
+          "file": {
+            "name": "/liturgical-calendar_1.00.0.apk",
+            "sha256": "fecbfd1087a4541b19c2f557b5155d841f58763e79f4a28b349ca559f66a484e",
+            "size": 8565771
+          },
+          "manifest": {
+            "versionName": "1.00.0",
+            "versionCode": 20,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "4a56eb4e4d73c3e049d174645f343eb2fc1b5069e3e8c603e4e5e3366bf301bf": {
           "added": 1736301939000,
           "file": {
