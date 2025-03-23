@@ -14,17 +14,17 @@
       }
     },
     "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo",
-    "timestamp": 1742518252000
+    "timestamp": 1742690686000
   },
   "packages": {
     "com.liturgical.calendar": {
       "metadata": {
-        "added": 1734116079000,
+        "added": 1742690670000,
         "categories": [
           "Time"
         ],
-        "changelog": "https://github.com/gold-cal/liturgical-calendar/CHANGELOG.md",
-        "lastUpdated": 1742518240000,
+        "changelog": "https://github.com/gold-cal/liturgical-calendar/blob/main/CHANGELOG.md",
+        "lastUpdated": 1742690675000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
         "featureGraphic": {
@@ -81,7 +81,7 @@
       },
       "versions": {
         "0dbc247db9ab486e02e9f9648fa7a5f90aea9c0f32557372f2a54a03e8bc4ab7": {
-          "added": 1742518240000,
+          "added": 1742690673000,
           "file": {
             "name": "/liturgical-calendar_1.2.0.apk",
             "sha256": "0dbc247db9ab486e02e9f9648fa7a5f90aea9c0f32557372f2a54a03e8bc4ab7",
@@ -142,7 +142,7 @@
           }
         },
         "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6": {
-          "added": 1738033429000,
+          "added": 1742690671000,
           "file": {
             "name": "/liturgical-calendar_1.01.0.apk",
             "sha256": "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6",
@@ -203,7 +203,7 @@
           }
         },
         "d4f7e66e35c3b65e1446504fe1680202513ca8b3665b7f0acae41054c1022c5d": {
-          "added": 1736611187000,
+          "added": 1742690670000,
           "file": {
             "name": "/liturgical-calendar_1.00.1.apk",
             "sha256": "d4f7e66e35c3b65e1446504fe1680202513ca8b3665b7f0acae41054c1022c5d",
