@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1742690683000,
+    "timestamp": 1742691734000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icons/icon.png",
@@ -25,15 +25,15 @@
       "name": "Liturgical Calendar",
       "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
       "summary": "Traditional Roman Calendar app",
-      "added": 1742690670000,
+      "added": 1742691664000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1742690675000
+      "lastUpdated": 1742691723000
     }
   ],
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1742690675000,
+        "added": 1742691664000,
         "apkName": "liturgical-calendar_1.00.0.apk",
         "hash": "fecbfd1087a4541b19c2f557b5155d841f58763e79f4a28b349ca559f66a484e",
         "hashType": "sha256",
