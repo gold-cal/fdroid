@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo",
-    "timestamp": 1742835852000
+    "timestamp": 1742837322000
   },
   "packages": {
     "com.liturgical.calendar": {
@@ -139,10 +139,7 @@
                 "maxSdkVersion": 28
               }
             ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
+          }
         },
         "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6": {
           "added": 1742835847000,
