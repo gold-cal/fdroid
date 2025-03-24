@@ -1,9 +1,9 @@
 {
   "repo": {
-    "timestamp": 1742837322000,
-    "version": 20002,
+    "timestamp": 1742843321000,
+    "version": 20001,
     "name": "gold-cal F-Droid Repo",
-    "icon": "icon.png",
+    "icon": "icons/icon.png",
     "address": "https://raw.githubusercontent.com/gold-cal/fdroid/main/fdroid/repo",
     "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
   },
@@ -25,9 +25,9 @@
       "name": "Liturgical Calendar",
       "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
       "summary": "Traditional Roman Calendar app",
-      "added": 1742835843000,
+      "added": 1742839735000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1742835848000,
+      "lastUpdated": 1742839740000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_FnK1BLrih59HFUq-JzGC8GTgmS-AWTQ8Z1xscA-8Azg=.png",
@@ -46,7 +46,7 @@
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1742835848000,
+        "added": 1742839738000,
         "apkName": "liturgical-calendar_1.2.0.apk",
         "hash": "0dbc247db9ab486e02e9f9648fa7a5f90aea9c0f32557372f2a54a03e8bc4ab7",
         "hashType": "sha256",
@@ -110,7 +110,7 @@
         "versionName": "1.2.0"
       },
       {
-        "added": 1742835847000,
+        "added": 1742839736000,
         "apkName": "liturgical-calendar_1.01.0.apk",
         "hash": "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6",
         "hashType": "sha256",
@@ -174,7 +174,7 @@
         "versionName": "1.01.0"
       },
       {
-        "added": 1742835845000,
+        "added": 1742839735000,
         "apkName": "liturgical-calendar_1.00.1.apk",
         "hash": "d4f7e66e35c3b65e1446504fe1680202513ca8b3665b7f0acae41054c1022c5d",
         "hashType": "sha256",
