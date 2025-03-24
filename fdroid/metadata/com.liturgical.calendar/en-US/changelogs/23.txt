@@ -1,3 +1,0 @@
-- Added more items to the calendar
-- Fixed a crash when selecting the month and year on the monthly view
-- Added a new option for removing events that are older then a specified year

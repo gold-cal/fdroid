@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1742691737000,
+    "timestamp": 1742835852000,
     "version": 20002,
     "name": "gold-cal F-Droid Repo",
     "icon": "icons/icon.png",
@@ -18,16 +18,16 @@
         "Time"
       ],
       "changelog": "https://github.com/gold-cal/liturgical-calendar/blob/main/CHANGELOG.md",
-      "suggestedVersionName": "1.2.0",
-      "suggestedVersionCode": "23",
+      "suggestedVersionName": "1.01.0",
+      "suggestedVersionCode": "22",
       "description": "Liturgical Calendar 2025 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2025. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2025 Features -\n\n\u2795 No ads or annoying popups, truly great user experience!\n\u2795 No internet access is needed, giving you more privacy, security, and stability\n\u2795 Calendar Widget supports exporting & importing events via .ics files\n\u2795 Export settings to .txt files to import to another device\n\u2795 Flexible event creation \u2013 times, duration, reminders, powerful repetition rules\n\u2795 CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n",
       "license": "GPL-3.0",
       "name": "Liturgical Calendar",
       "sourceCode": "https://github.com/gold-cal/liturgical-calendar",
       "summary": "Traditional Roman Calendar app",
-      "added": 1742691664000,
+      "added": 1742835843000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1742691723000,
+      "lastUpdated": 1742835848000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_FnK1BLrih59HFUq-JzGC8GTgmS-AWTQ8Z1xscA-8Azg=.png",
@@ -38,7 +38,7 @@
             "3.png",
             "4.png"
           ],
-          "whatsNew": "- Added more items to the calendar\n- Fixed a crash when selecting the month and year on the monthly view\n- Added a new option for removing events that are older then a specified year"
+          "whatsNew": "- UI updates\n- More calendar items added"
         }
       }
     }
@@ -46,7 +46,7 @@
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1742691723000,
+        "added": 1742835848000,
         "apkName": "liturgical-calendar_1.2.0.apk",
         "hash": "0dbc247db9ab486e02e9f9648fa7a5f90aea9c0f32557372f2a54a03e8bc4ab7",
         "hashType": "sha256",
@@ -110,7 +110,7 @@
         "versionName": "1.2.0"
       },
       {
-        "added": 1742691667000,
+        "added": 1742835847000,
         "apkName": "liturgical-calendar_1.01.0.apk",
         "hash": "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6",
         "hashType": "sha256",
@@ -174,7 +174,7 @@
         "versionName": "1.01.0"
       },
       {
-        "added": 1742691665000,
+        "added": 1742835845000,
         "apkName": "liturgical-calendar_1.00.1.apk",
         "hash": "d4f7e66e35c3b65e1446504fe1680202513ca8b3665b7f0acae41054c1022c5d",
         "hashType": "sha256",
