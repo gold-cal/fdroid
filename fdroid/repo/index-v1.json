@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1743912856000,
+    "timestamp": 1744332466000,
     "version": 20001,
     "name": "gold-cal F-Droid Repo",
     "icon": "icons/icon.png",
@@ -27,7 +27,7 @@
       "summary": "Traditional Roman Calendar app",
       "added": 1742846348000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1743912845000,
+      "lastUpdated": 1744332456000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_FnK1BLrih59HFUq-JzGC8GTgmS-AWTQ8Z1xscA-8Azg=.png",
@@ -38,7 +38,7 @@
             "3.png",
             "4.png"
           ],
-          "whatsNew": "- Previous update caused a crash"
+          "whatsNew": "- Fixed a bug where birthdays would get duplicated when syncing with contacts\n- Added a crash handler\n- Updated dependencies\n- Code improvements and smaller app size"
         }
       }
     }
@@ -46,16 +46,16 @@
   "packages": {
     "com.liturgical.calendar": [
       {
-        "added": 1743912845000,
+        "added": 1744332456000,
         "apkName": "liturgical-calendar_1.2.2.apk",
-        "hash": "d114268a520707138a0693656a3d05d29a6cb0730075f21bb1fc08b00143256c",
+        "hash": "4c0b63f6b5eee9c42e44b01feaa24ba107fda01c0bc3184c7857c9c0d5700bc5",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "packageName": "com.liturgical.calendar",
         "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
         "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
-        "size": 8481655,
-        "targetSdkVersion": 33,
+        "size": 8485122,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.RECEIVE_BOOT_COMPLETED",
@@ -108,70 +108,6 @@
         ],
         "versionCode": 25,
         "versionName": "1.2.2"
-      },
-      {
-        "added": 1743816672000,
-        "apkName": "liturgical-calendar_1.2.1.apk",
-        "hash": "88e4e2d213e1933dc8190d3a98a3fab9e5d2688f69f14a97a516dd2f0c48316c",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "packageName": "com.liturgical.calendar",
-        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
-        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
-        "size": 8481650,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WRITE_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.SCHEDULE_EXACT_ALARM",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            28
-          ]
-        ],
-        "versionCode": 24,
-        "versionName": "1.2.1"
       },
       {
         "added": 1742846351000,
@@ -236,6 +172,70 @@
         ],
         "versionCode": 23,
         "versionName": "1.2.0"
+      },
+      {
+        "added": 1742846350000,
+        "apkName": "liturgical-calendar_1.01.0.apk",
+        "hash": "9b5cb428c69dfab69b124ae19bc47e3586e059ca17620691f57a93c084df06e6",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "com.liturgical.calendar",
+        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
+        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
+        "size": 8590096,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WRITE_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 22,
+        "versionName": "1.01.0"
       }
     ]
   }

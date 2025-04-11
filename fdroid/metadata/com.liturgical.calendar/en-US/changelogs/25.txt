@@ -1,1 +1,4 @@
-- Previous update caused a crash
+- Fixed a bug where birthdays would get duplicated when syncing with contacts
+- Added a crash handler
+- Updated dependencies
+- Code improvements and smaller app size
