@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1770432185000,
+    "timestamp": 1776463651000,
     "version": 20001,
     "name": "gold-cal F-Droid Repo",
     "icon": "icons/icon.png",
@@ -18,8 +18,8 @@
         "Time"
       ],
       "changelog": "https://github.com/gold-cal/liturgical-calendar/blob/main/CHANGELOG.md",
-      "suggestedVersionName": "1.5",
-      "suggestedVersionCode": "37",
+      "suggestedVersionName": "1.6",
+      "suggestedVersionCode": "38",
       "description": "Liturgical Calendar 2025 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2025. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.\n\nLiturgical Calendar 2025 Features -\n\n\u2795 No ads or annoying popups, truly great user experience!\n\u2795 No internet access is needed, giving you more privacy, security, and stability\n\u2795 Calendar Widget supports exporting & importing events via .ics files\n\u2795 Export settings to .txt files to import to another device\n\u2795 Flexible event creation \u2013 times, duration, reminders, powerful repetition rules\n\u2795 CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n\nIt comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.\n\nContains no ads or unnecessary permissions.\n",
       "license": "GPL-3.0",
       "name": "Liturgical Calendar",
@@ -27,7 +27,7 @@
       "summary": "Traditional Roman Calendar app",
       "added": 1742846348000,
       "packageName": "com.liturgical.calendar",
-      "lastUpdated": 1770432174000,
+      "lastUpdated": 1776463640000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_o_r02VzVw0gnztXuoXyHTqc-_f20SWgZPfwb3va4_RA=.png",
@@ -40,13 +40,77 @@
             "5.png",
             "6.png"
           ],
-          "whatsNew": "- Fixed some theme issues\n- Some minor code improvements"
+          "whatsNew": "- Improved handling of calendar ids\n- Added the Sundays after Easter\n- Removed some deprecated code"
         }
       }
     }
   ],
   "packages": {
     "com.liturgical.calendar": [
+      {
+        "added": 1776463640000,
+        "apkName": "liturgical-calendar_1.6.apk",
+        "hash": "0068bb34f81be107f1d4cf6700abc7327b472eaa3146ef241bedc0ea3ab9410b",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "com.liturgical.calendar",
+        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
+        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
+        "size": 8771222,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WRITE_CALENDAR",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.SCHEDULE_EXACT_ALARM",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 38,
+        "versionName": "1.6"
+      },
       {
         "added": 1770432174000,
         "apkName": "liturgical-calendar_1.5.apk",
@@ -174,70 +238,6 @@
         ],
         "versionCode": 36,
         "versionName": "1.4"
-      },
-      {
-        "added": 1763435679000,
-        "apkName": "liturgical-calendar_1.3.apk",
-        "hash": "78ba6d96e75298e2f7d2841eeb61f860398b4105e5a7488d1a229eb830c6a635",
-        "hashType": "sha256",
-        "minSdkVersion": 23,
-        "packageName": "com.liturgical.calendar",
-        "sig": "f8f9504d29f5a6f4b4a9951dc37963f4",
-        "signer": "032a8d9a973782a4a094ec615f31417ed193317183eff84eb14960a7b4ba4c17",
-        "size": 8514672,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.VIBRATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WRITE_CALENDAR",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.SCHEDULE_EXACT_ALARM",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            28
-          ],
-          [
-            "android.permission.USE_FINGERPRINT",
-            null
-          ],
-          [
-            "com.liturgical.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            28
-          ]
-        ],
-        "versionCode": 35,
-        "versionName": "1.3"
       }
     ]
   }
