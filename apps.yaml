@@ -2,20 +2,17 @@ liturgical-calendar:
   git: https://github.com/gold-cal/liturgical-calendar
   name: "Liturgical Calendar"
   description: |
-    Liturgical Calendar 2025 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2025. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.
+    Seize the day (Carpe Diem) with liturgical Calendar app for android. This app is a privacy friendly, offline monthly calendar. It's your daily planner in your pocket. This app takes privacy seriously with limited permissions, no ads, and no internet access! Plus, displays all the saints of the day and holy days of obligation from the Traditional Roman Catholic Calendar. It even supports syncing events via Google Calendar
 
-    Liturgical Calendar 2025 Features -
+    Never miss a birthday or anniversary with the built in event reminders. Schedule your appointments, make ToDo lists, or link your work calendar. Liturgical calendar helps you say organized. Powerful customizations from notifications, reminders, and colors. Comes with dark theme by default but has light themes or any color you want. With 3 widgets to choose from, you won't miss a day!
 
-    ➕ No ads or annoying popups, truly great user experience!
-    ➕ No internet access is needed, giving you more privacy, security, and stability
-    ➕ Calendar Widget supports exporting & importing events via .ics files
-    ➕ Export settings to .txt files to import to another device
-    ➕ Flexible event creation – times, duration, reminders, powerful repetition rules
-    ➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc
-    
-    It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
-
-    Contains no ads or unnecessary permissions.
+    Key Features -
+    * No ads or popups 
+    * No internet access giving you more privacy and security
+    * Calendar Widget supports exporting & importing events via .ics files  
+    * Export settings to .txt files to import to another device  
+    * Flexible event creation – times, duration, reminders, powerful repetition rules  
+    * CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc
 
   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
   # you can use any name here, but you should look at the existing categories first

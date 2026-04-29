@@ -2,23 +2,9 @@ AuthorName: gold-cal
 Categories:
     - Time
 Changelog: https://github.com/gold-cal/liturgical-calendar/blob/main/CHANGELOG.md
-CurrentVersion: "1.6"
-CurrentVersionCode: 38
-Description: |
-    Liturgical Calendar 2025 is a highly customizable, offline monthly calendar app for Android. Have an agenda planner in your pocket, designed to do exactly what a personal tiny schedule planner should do in 2025. No complicated features, unnecessary permissions, or ads!  Plus, it displays all the saints of the day and holy days of obligation from the Roman Catholic Calendar. It supports syncing events via Google Calendar or other calendars supporting CalDAV protocol.
-
-    Liturgical Calendar 2025 Features -
-
-    ➕ No ads or annoying popups, truly great user experience!
-    ➕ No internet access is needed, giving you more privacy, security, and stability
-    ➕ Calendar Widget supports exporting & importing events via .ics files
-    ➕ Export settings to .txt files to import to another device
-    ➕ Flexible event creation – times, duration, reminders, powerful repetition rules
-    ➕ CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc
-
-    It comes with material design and dark theme by default, provides great user experience for easy usage. The lack of internet access gives you more privacy, security and stability than other apps.
-
-    Contains no ads or unnecessary permissions.
+CurrentVersion: "2.0"
+CurrentVersionCode: 40
+Description: "Seize the day (Carpe Diem) with liturgical Calendar app for android. This app is a privacy friendly, offline monthly calendar. It's your daily planner in your pocket. This app takes privacy seriously with limited permissions, no ads, and no internet access! Plus, displays all the saints of the day and holy days of obligation from the Traditional Roman Catholic Calendar. It even supports syncing events via Google Calendar\n\nNever miss a birthday or anniversary with the built in event reminders. Schedule your appointments, make ToDo lists, or link your work calendar. Liturgical calendar helps you say organized. Powerful customizations from notifications, reminders, and colors. Comes with dark theme by default but has light themes or any color you want. With 3 widgets to choose from, you won't miss a day!\n\nKey Features -\n* No ads or popups \n* No internet access giving you more privacy and security\n* Calendar Widget supports exporting & importing events via .ics files  \n* Export settings to .txt files to import to another device  \n* Flexible event creation – times, duration, reminders, powerful repetition rules  \n* CalDAV support for syncing events via Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc\n"
 IssueTracker: ""
 License: GPL-3.0
 Name: Liturgical Calendar

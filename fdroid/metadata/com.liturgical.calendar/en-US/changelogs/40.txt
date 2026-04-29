@@ -1,0 +1,5 @@
+* NEW: The calendar can now import and export tasks (importing into other apps not supported)
+* Updated gradle scripts
+* Updated some Deprecated code
+* Refreshed the readme
+* Reduced code size
